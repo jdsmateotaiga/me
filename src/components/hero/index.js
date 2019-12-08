@@ -4,8 +4,8 @@ import '../../sass/hero.scss'
 import { SocialMedia } from '../../elements/socialmedia.js';
 
 const social_media_items = [
-  { icon: 'faFacebook' },
-  { icon: 'faTwitter' }
+  { icon: 'faFacebook', target: '', link: 'test' },
+  { icon: 'faTwitter', target: '', link: 'test2' }
 ];
 
 class Hero extends React.Component {
