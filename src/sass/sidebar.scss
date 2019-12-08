@@ -1,0 +1,44 @@
+.drawer-btn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  line-height: 0;
+  padding: 3px 7px;
+  font-size: 24px;
+  background-color:#95a5a6;
+  color: #fff!important;
+  transition: all ease-in-out .1s;
+  &:hover {
+    padding-left: 12px;
+  }
+}
+.ant-drawer-content-wrapper {
+  position: relative;
+  .ant-drawer-content {
+    overflow: inherit;
+    .ant-drawer-body {
+      padding: 0;
+    }
+  }
+}
+.navigation_menu {
+   ul {
+     padding-left: 0;
+     li {
+       list-style-type: none;
+       a {
+         display: block;
+         padding: 10px 15px;
+         background-color: #95a5a6;
+         color: #fff;
+         transition: all ease-in-out .3s;
+       }
+       &:hover,
+       &.active {
+         a {
+           background-color: #7f8c8d;
+         }
+       }
+     }
+   }
+}
